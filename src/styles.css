@@ -1,0 +1,62 @@
+/* styles.css */
+
+.story-list {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .story-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .story-card {
+    text-decoration: none;
+    color: inherit;
+    width: 200px;
+  }
+  
+  .story-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .story-title {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .create-story-link {
+    display: block;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #007bff;
+  }
+  
+  .view-story {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .view-story .story-cover {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .view-story h1 {
+    margin-top: 20px;
+  }
+  
+  .view-story h2 {
+    margin-top: 10px;
+  }
+  
+  .view-story p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+  }
+  
